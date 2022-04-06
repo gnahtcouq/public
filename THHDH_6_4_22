@@ -71,7 +71,7 @@ if %option% EQU T (tree)
 if %option% EQU V (ver)
 if %option% EQU C (cls)
 if %option% EQU E (exit)
-if %option% EQU D (date)
+if %option% EQU D (PowerShell -Command "get-date")
 if %option% == "E" (exit) else (goto :labeloption)
 
 pause
