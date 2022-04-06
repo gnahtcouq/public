@@ -51,3 +51,24 @@ D:\MSSV CUA BAN\THUC HANH>cd "GIUA KY"
 D:\MSSV CUA BAN\THUC HANH\GIUA KY>md "BATCH FILE"
 
 D:\MSSV CUA BAN\THUC HANH\GIUA KY>md COMMAND
+
+
+
+
+
+@echo off
+echo ++++++++++++++++++++++++++++++++++++
+echo Ho ten: Tran Van Quoc Thang
+echo MSSV: DH52007101
+echo Lop: D20_TH11
+echo ++++++++++++++++++++++++++++++++++++
+
+
+:labeloption
+set /p option="Enter your choice? (T/V/C/E)"
+if %option% EQU T (tree)
+if %option% EQU V (ver)
+if %option% EQU C (cls)
+if %option% EQU E (exit)
+if %option% == "E" (exit) else (goto :labeloption)
+pause
