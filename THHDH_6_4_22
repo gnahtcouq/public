@@ -1,3 +1,17 @@
+@echo off
+echo ++++++++++++++++++++++++++++++++++++
+echo Ho ten: Tran Van Quoc Thang
+echo MSSV: DH52007101
+echo Lop: D20_TH11
+echo ++++++++++++++++++++++++++++++++++++
+
+pause
+
+
+
+
+
+
 D:\>md MSSV CUA BAN
 
 D:\>cd "MSSV CUA BAN"
