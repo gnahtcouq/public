@@ -34,7 +34,6 @@ int getHeight(AVL* root);
 AVL* rightRotate(AVL* root);
 AVL* leftRotate(AVL* root);
 AVL* insert(AVL* root, int value);
-void NLR_AVL(AVL* root);
 
 int main() {
   NODE* root;
