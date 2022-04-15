@@ -136,17 +136,6 @@ void xoaNode(NODE*& root, int x) {
 	}
 }
 
-NODE* timKiemNode(NODE* root, int x) {
-	if (root == NULL)
-		return NULL;
-	if (x > root->data)
-		return timKiemNode(root->right, x);
-	else if (x < root->data)
-		return timKiemNode(root->left, x);
-	else
-		return root;
-}
-
 int chieuCaoCay(NODE* root) {
 	if (root == NULL)
 		return 0;
