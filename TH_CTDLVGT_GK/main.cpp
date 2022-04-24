@@ -1,3 +1,4 @@
+#include "header.h"
 int main() {
   BST* root;
   init_BST(root);
