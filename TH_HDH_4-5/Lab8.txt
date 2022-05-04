@@ -1,1 +1,3 @@
 cp /etc/{group,passwd,hosts,magic} ~/Bai2
+
+https://blogd.net/linux/phan-quyen-tap-tin/
