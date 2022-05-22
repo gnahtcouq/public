@@ -1,6 +1,0 @@
-cp /etc/{group,passwd,hosts,magic} ~/Bai2
-
-https://blogd.net/linux/phan-quyen-tap-tin/
--	chmod g+w group
--	chmod g+w+r,o+w group
--	chmod 675  passwd
